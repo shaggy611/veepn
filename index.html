@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap" rel="stylesheet">
     <!--<link rel="stylesheet" href="./css/reset.css">-->
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/tablet.css">
     <title>Veepn</title>
   </head>
   <body>
@@ -25,7 +26,7 @@
                               <span id="ip">46.133.191.216</span>
                               <span id="isp">ISP:</span>
                               <span id="isp_name">Vodafone Ukraine</span>
-                              <span id="status">Your Status</span>
+                              <span id="status">Your Status:</span>
                               <span id="unprotecter">Unprotected</span>
                               </div>
                           </div>
@@ -36,17 +37,20 @@
           <section id="ip-info">
              <div class="container">
              	<div class="row">
-             		<div class="col-lg-12">
+             		<div class="col-lg-12 col-md-12">
+             		    <div class="wrapper_for_logo">
              			<img src="./img/logo.png" alt="veepn_logo" class="veepn_logo">
+             			</div>
              		</div>
              	</div>
              </div>
               <div class="container make_shadow">
                   <div class="row">
-                      <div class="col-lg">
+                      <div class="col-lg col-md">
                           <img src="./img/triangle_polygon.png" alt="polygon" class="triangle_polygon_position">
                           <div class="more_info_about_ip">
-                              <h1 id="what_my_ip">what`s my ip address?</h1>
+                              <h1 id="what_my_ip">What’s My IP Address?
+</h1>
                               <p id="private_information">Your private information is exposed</p>
                               <p id="ip_adress">IP Address: <span>46.133.191.216</span></p>
 							  <div class="ip-position_information">ISP:</div><span class="ip-position_information_span">Vodafone Ukraine</span><br>
@@ -54,11 +58,11 @@
                               <div class="ip-position_information">State/Region:</div><span class="ip-position_information_span">Kyyiv</span><br>
                               <div class="ip-position_information">Country:</div><span class="ip-position_information_span">Ukraine</span><br>
                               <div id="what_my_ip_button">
-                              	<button type="button" class="protect_yourself_button">Protect Yourself</button>
+                              	<button type="button" class="protect_yourself_button"><a href="https://veepn.com">Secure Your Data</a></button>
                               </div>
                           </div>
                       </div>
-                      <div class="col-lg">
+                      <div class="col-lg col-md">
                           <div class="info-bg">
                               
                           </div>
@@ -69,28 +73,31 @@
           <section id="what-is-ip">
           	<div class="container">
           		<div class="row">
-          			<div class="col-lg-12">
+          			<div class="col-lg-12 col-md-12">
           				<h1 class="what_is_ip_h1_and_revel">what is an ip address?</h1>
-          				<p id="ip_definition">An IP address is your unique identifier on the web, you can think of it as your digital fingerprint</p>
           			</div>
           		</div>
           		<div class="row justify-content-between">
-          			<div class="col-lg-7">
-          			<img src="./img/ic-plus.png" alt="plus" class="plus_minus_icos_position">
-          				<h2 class="plus_column_n2">The Upside</h2>
-						<p class="plus_column_inform">Thanks to IP addresses, Internet service providers can differentiate your device from the billions of others connected
-to the web</p>
+          			<div class="col-lg-7 col-md-12">
+         			<div class="wrapper_for_plus_column">  
+          			    <img src="./img/ic-plus.png" alt="plus" class="plus_minus_icos_position">
+          				<h2 class="plus_column_n2">Pros</h2>
+						<p class="plus_column_inform">IP address allows Internet service providers to identify and differentiate your device among millions of other devices</p>
+          			</div>  
           			</div>
-          			<div class="col-lg-5">
+          			<div class="col-lg-5 col-md-12">
+          			<div class="wrapper_for_plus_column">  
           				<img src="./img/ic-minus.png" alt="plus" class="plus_minus_icos_position">
-          				<h2 class="plus_column_n2">The Downside</h2>
-						<p class="plus_column_inform">This is also how ISPs, governments and hackers locate and identify you online</p>
+          				<h2 class="plus_column_n2">Cons</h2>
+						<p class="plus_column_inform">The same way local governments, ISPs and hackers can locate and track your online presense</p>
+					</div>
           			</div>
           		</div>
           		<div class="row">
           			<div class="col-lg-12">
+          			    <p id="ip_definition"><span>IP Adress</span>  is a unique web identifier which serves as your personal digital ID</p>
           				<p id="ip_internet_protocol_text">
-          					IP stands for Internet Protocol, which is a framework that enables two-way communication by assigning unique numerical addresses to each device connected to the Internet. Without a VPN, anyone can see your IP address and your private data is at risk. With a VPN, you can hide your IP address, no one can snoop into your data and you can access any geo-restricted website.
+          					IP, or Internet Protocol, is a framework that assigns a unique number to each and every Internet device and by doing so, enables a two-way communication. Only those who use VPN can protect themselves from their IP being tracked and can ensure that their IP is hidden. Their data is protected and there are no restrictions when accessing geo-restricted websites.
           				</p>
           			</div>
           		</div>
@@ -100,28 +107,32 @@ to the web</p>
           	<div class="container">
           		<div class="row">
           			<div class="col-lg-12">
-          				<h1 class="what_is_ip_h1_and_revel">What does your IP address reveal?</h1>
+          				<h1 class="what_is_ip_h1_and_revel">What Information your IP Adress Reveals</h1>
           				
           			</div>
           		</div>
           		<div class="row justify-content-between">
           			<div class="col-lg-3">
+          			    <wrapper class="vertical_align_for_blocks align-middle">
           				<img src="./img/ic-user.png" alt="user_ico">
-          				<h2 class="ip_reveals_column_h2">Who you are</h2>
+          				<h2 class="ip_reveals_column_h2">Your Identity</h2>
           				<h3 class="ip_reveals_column_h3">Country, region, city, address, internet provider, browsing habits, hobbies</h3>
-          				<p class="ip_reveals_column_text">Furthermore, cybercriminals can look up the online activity associated with a particular IP address by simply searching it online. They can find out your browsing habits, hobbies, and surprisingly private details — for example, that you visit fitness websites or edit Wikipedia</p>
+          				<p class="ip_reveals_column_text">What is even more important, with opened IP address, hackers can easily track your online activity. All it takes is to search your IP online. Your private digital life can instantly become available to anyone, whether it's address of your beauty salon or latest online purchases.</p>
+          			    </wrapper>
           			</div>
           			<div class="col-lg-3">
+          			    <wrapper class="vertical_align_for_blocks align-middle">
           				<img src="./img/ic-buys.png" alt="user_ico">
-          				<h2 class="ip_reveals_column_h2">What you buy</h2>
+          				<h2 class="ip_reveals_column_h2">Your Purchase History</h2>
           				<h3 class="ip_reveals_column_h3">Preferences, desires, habits, age, gender, education, income size</h3>
-          				<p class="ip_reveals_column_text">Associating your IP address with your online activity gives advertisers priceless insights about your preferences, desires, and habits. They use this information to create your digital profile, which may include your age, gender, education, income size, etc. Then they sell this data to the highest bidder</p>
+          				<p class="ip_reveals_column_text">Connecting your IP address with your daily online routines may become a powerful weapon in the hands of advertisers. Your personal infrmation will be used for creation of your digital profile which will later serve as a useful data for higher bidders.</p>
+          			</wrapper>
           			</div>
           			<div class="col-lg-3">
           				<img src="./img/ic-browse.png" alt="user_ico">
-          				<h2 class="ip_reveals_column_h2">What you browse</h2>
+          				<h2 class="ip_reveals_column_h2">Browsing Preferences</h2>
           				<h3 class="ip_reveals_column_h3">Online activity, name, home adress, phone number, credit card details</h3>
-          				<p class="ip_reveals_column_text">Authorities can then order them to release the browsing history associated with a particular IP address. That’s how your online activity, along with your name, home address, phone number, and credit card details, can end up in the hands of the government.</p>
+          				<p class="ip_reveals_column_text">Local authorities can get access to your browsing history based on the IP address. Don't be surprised if one day all your personal data, such as home address, credit card numbers, mobile number will be accessible for the government.</p>
           			</div>
           		</div>
           		<div class="row img_warn_and_text_block">
@@ -135,7 +146,7 @@ to the web</p>
           					<li>Government monitor your life</li>
           					<li>Cybercriminals steal your money</li>
           				</ul>
-          				<button type="button" class="protect_yourself_button">Get VeePN Now</button>
+          				<button type="button" class="protect_yourself_button"><a href="https://veepn.com">Get VeePN Now</a></button>
           			</div>
           		</div>
           	</div>	
@@ -148,15 +159,15 @@ to the web</p>
           		<div class="row img_warn_and_text_block">
           			<div class="col-lg-6">
           				<ul class="list-group list-group-horizontal-sm">
-          					<li class="benefits_block_li">Hide your IP Address</li>
-          					<li class="benefits_block_li">Encrypts tour data securely</li>
+          					<li class="benefits_block_li">It hides your IP address</li>
+          					<li class="benefits_block_li">There is no logging period</li>
           				</ul>
           				<ul class="list-group list-group-horizontal-sm">
-          					<li class="benefits_block_li">No logging period</li>
-          					<li class="benefits_block_li benefits_last_li_width">Gain unrestricted access to the internet</li>
+          					<li class="benefits_block_li">Data is securely encrypted</li>
+          					<li class="benefits_block_li benefits_last_li_width">No restrictions for Internet Access</li>
           				</ul>
-          				<p id="benefits_first_p">Veepn provides the best service for hiding and redirecting your IP address. The service redirects your IP address to one of our own servers through a private network tunnel over a public network. In addition to hiding your IP address, VeePN encrypts your data at a packet level which provides you with another layer of security.</p>
-          				<p>To VeePN, your online security, as well as privacy, is greatly important, thus we do not keep logs of any of your data making you virtually untraceable. You will be able to surf the web anonymously without having to look behind your back constantly. You will also gain unrestricted access to the internet to its fullest. The service will allow you to bypass censorship and firewalls placed by your country.</p>
+          				<p id="benefits_first_p">VeePN is the best solution that will ensure absolute hiding and redirection of your IP address. By means of one of our servers, your IP is redirected via private network route without accessing a public network. Besides this, VeePN guarantees total encryption of your data, which proves that all your data is 100% secure at all levels.</p>
+          				<p>Ensuring online securing and granting our users with privacy is our priority. VeePN doesn not keep your data logs and creates an untraceable environment for your online activity. You may now anonymously serf the web and not worry about anyone watching you behind your back. Another major benefit of VeePN is an unrestricted internet access. No more censorship issues or governmental firewalls that set you apart from the rest of the world.</p>
           			</div>
           			<div class="col-lg-6">
           				<img src="./img/img-benefits.png" alt="warn-img" class="img_benefits float-right">
@@ -183,7 +194,7 @@ to the web</p>
           					<img src="./img/ic-chrome.png" alt="chrome">
           					<img src="./img/ic-firefox.png" alt="firefox">
           					<img src="./img/ic-opera.png" alt="opera">
-          					<button type="button" class="hide_your_ip_button">Protect Yourself</button>
+          					<button type="button" class="hide_your_ip_button"><a href="https://veepn.com">Protect Yourself</a></button>
           				</div>
           			</div>
           		</div>

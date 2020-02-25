@@ -37,6 +37,7 @@ body {
     line-height: 39px;
     padding-top: 60px;
     text-align: center;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #private_information {
@@ -62,7 +63,7 @@ body {
 .make_shadow {
 	-webkit-box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.18);
 	        box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.18);
-	border-radius: 20px;
+	        border-radius: 20px;
 }
 
 .triangle_polygon_position {
@@ -106,17 +107,18 @@ body {
 
 
 .protect_yourself_button {
+	font-family: 'Montserrat';
 	margin-top: 58px;
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 22px;
 	color: #FFFFFF;
 	border-radius: 50px;
-	background: -webkit-gradient(linear, left bottom, left top, from(#42D79E), to(#42D79E)), #FF5948;
-	background: -o-linear-gradient(bottom, #42D79E, #42D79E), #FF5948;
-	background: linear-gradient(0deg, #42D79E, #42D79E), #FF5948;
+	background: -webkit-gradient(linear, left bottom, left top, from(#29C879), to(#40D69B));
+	background: -o-linear-gradient(0deg, #29C879, #40D69B);
+	background: linear-gradient(0deg, #29C879, #40D69B);
 	height: 50px;
-	width: 246px;
+	width: 266px;
 	padding-top: 13px;
 	padding-bottom: 13px;
 	padding-left: 47px;
@@ -137,12 +139,16 @@ body {
 }
 
 #ip_definition {
-	font-weight: 600;
+	font-weight: 300;
 	font-size: 18px;
 	line-height: 26px;
 	color: #313131;
-	margin-top: 80px;
-	margin-bottom: 73px;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+#ip_definition > span {
+	font-weight: 600;
 }
 
 .plus_column_n2 {
@@ -169,6 +175,7 @@ body {
 
 .plus_minus_icos_position {
 	position: absolute;
+	top: 0;
 }
 
 #ip_internet_protocol_text {
@@ -176,7 +183,6 @@ body {
 	font-size: 16px;
 	line-height: 26px;
 	color: #5A5A5A;
-	margin-top: 60px;
 }
 
 .ip_reveals_column_h2 {
@@ -186,6 +192,7 @@ body {
 	text-transform: uppercase;
 	color: #313131;
 	margin-top: 32px;
+	height: 58px;
 }
 
 .ip_reveals_column_h3 {
@@ -195,6 +202,7 @@ body {
 	color: #313131;
 	margin-top: 20px;
 	width: 299px;
+	height: 90px;
 }
 
 .ip_reveals_column_text {
@@ -243,7 +251,8 @@ ul {
 	line-height: 22px;
 	text-transform: uppercase;
 	color: #313131;
-	width: 197px;
+	width: 215px;
+	/*width: 197px;*/
 	margin: 0px 50px 19px 0px;
 	padding-left: 2em;
 	text-indent:-2em;
@@ -351,6 +360,7 @@ ul {
 #unprotecter {
 	color: #FF5948;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 #isp_name {
@@ -372,3 +382,20 @@ ul {
 #header_row_ip_info {
 	margin-top: 1%;
 }
+
+a {
+	color: #FFFFFF; 
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+a:hover {
+	text-decoration: none; 
+	color: #FFFFFF;
+}
+
+
+
+
