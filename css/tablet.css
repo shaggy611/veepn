@@ -1,6 +1,6 @@
 /*Media queries for tablets================================================*/
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1290px) {
 	#ip-info {
 		background-size: cover;
 		background-position: top;
@@ -102,9 +102,93 @@
 }
 	.plus_column_inform {
 		width: 350px;
+		margin-bottom: 30px;
 	}
 	.wrapper_for_plus_column {
 	  margin-left: 20%
+	}
+	
+	#ip_definition {
+		width: 610px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#ip_internet_protocol_text {
+		width: 610px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.what_is_ip_h1_and_revel {
+		width: 610px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.ip_reveals_column_text {
+		width: 190px;
+		padding-right: 20px;
+		margin-top: 80px;
+	}
+	.ip_reveals_column_h2 {
+		width: 190px;
+		padding-right: 20px;
+		font-size: 22px;
+	}
+	.ip_reveals_column_h3 {
+		width: 190px;
+		padding-right: 20px;
+		margin-top: 60px;
+	}
+	.change_width_on_tablet {
+		width: 190px;
+		margin: 0;
+	}
+	#ip-reveals {
+		width: 610px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.ip_reveal_warn_image {
+		margin-left: 0;
+		width: 374px;
+		margin-bottom: 86px;
+	}
+	.wrapper_for_ip_reveal_warn_image {
+		text-align: center;
+	}
+	.wrapper_for_what_can_be_done {
+		width: 509px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	.what_can_be_done {
+		font-size: 20px;
+		line-height: 26px;
+	}
+	.wrapper_for_what_can_be_done > ul {
+		text-align: left;
+	}
+	.what_is_ip_h1_and_revel {
+		font-size: 26px;
+		line-height: 32px;
+		margin-bottom: 46px;
+	}
+	.img_warn_and_text_block {
+		margin-top: 0;
+	}
+	#benefits {
+		width: 610px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.benefits_block_li {
+		width: 300px;
+	}
+	.img_benefits {
+		width: 387px;
+		float: none !important;
+
 	}
 }
 
