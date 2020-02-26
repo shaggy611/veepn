@@ -57,15 +57,18 @@
 		margin-left: 16px;
 	}
 	.protect_yourself_button {
-		margin-top: 50px;
+		margin-top: 42px;
 		margin-bottom: 50px;
-		font-size: 16px;
-		line-height: 20px;
-		height: 41px;
-		width: 258px;
-        padding-bottom: 14px;
-		padding-top: 11px;
+		padding-top: 10px;
+        width: 215px;
+        height: 41px;
+        padding-left: 0;
+        padding-right: 0;
 }
+    .protect_yourself_button > a {
+        font-size: 16px;
+		line-height: 20px;
+    }   
 	.triangle_polygon_position {
 		position: absolute;
 		top: 87%;
@@ -123,6 +126,10 @@
 		width: 610px;
 		margin-left: auto;
 		margin-right: auto;
+        font-size: 26px;
+		line-height: 32px;
+		margin-bottom: 46px;
+        margin-top: 125px;
 	}
 	.ip_reveals_column_text {
 		width: 190px;
@@ -169,11 +176,6 @@
 	.wrapper_for_what_can_be_done > ul {
 		text-align: left;
 	}
-	.what_is_ip_h1_and_revel {
-		font-size: 26px;
-		line-height: 32px;
-		margin-bottom: 46px;
-	}
 	.img_warn_and_text_block {
 		margin-top: 0;
 	}
@@ -181,6 +183,7 @@
 		width: 610px;
 		margin-left: auto;
 		margin-right: auto;
+        margin-bottom: 95px;
 	}
 	.benefits_block_li {
 		width: 300px;
@@ -188,9 +191,94 @@
 	.img_benefits {
 		width: 387px;
 		float: none !important;
-
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 	}
+    .hide_this_element_on_small_device {
+    display: none;
+    }
+    .hide_this_element_on_big_device {
+    display: inline-block;
+}
+    #cta {
+        width: 610px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hide_your_ip_button {
+		padding-top: 3px;
+        width: 215px;
+        padding-left: 0;
+        padding-right: 0;
+        height: 41px;
+        margin-top: 40px;
+    }
+    .hide_your_ip_button > a {
+        font-size: 16px;
+        line-height: 36px;
+    }
+    .cta_iphone_img {
+        position: absolute;
+	    left: -40%;
+	    top: 13%;
+        content: url(../img/phone_small.png);
+    }
+    #protect_your_IP {
+        font-size: 20px;
+        line-height: 24px; 
+        margin-bottom: 40px;
+    }
+    .block_with_tech_ico {
+        font-size: 16px;
+        line-height: 20px;
+}
+    .block_with_tech_ico > img {
+        margin-right: 10px;
+        margin-left: 2px;
+    }
+    .block_with_tech_ico > span {
+        margin-right: 15px;
+    }
+    .ios_cta_block_image {
+       content: url(../img/ic-ios-small.png);
+        margin-right: 0;
+    }
+
+    .win_cta_block_image {
+        content: url(../img/ic-win-small.png);
+        
+    }
+
+    .apple_cta_block_image {
+        content: url(../img/ic-apple-small.png);
+    }
+
+    .linux_cta_block_image {
+        content: url(../img/ic-linux-small.png);
+    }
+
+    .router_cta_block_image {
+        content: url(../img/ic-router-small.png);
+    }
+
+    .apple-tv_cta_block_image {
+        content: url(../img/ic-apple-tv-small.png);
+    }
+
+    .chrome_cta_block_image {
+        content: url(../img/ic-chrome-small.png);
+    }
+
+    .firefox_cta_block_image {
+        content: url(../img/ic-firefox-small.png);
+    }
+
+    .opera_cta_block_image {
+        content: url(../img/ic-opera-small.png);
+    }
 }
 
 
 /*=========================================================================*/
+

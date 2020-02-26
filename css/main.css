@@ -3,6 +3,10 @@ body {
     font-size: 16px;
 }
 
+.hide_this_element_on_big_device {
+    display: none;
+}
+
 #top-line {
     height: 46px;
     background-color: #263238;
@@ -288,7 +292,7 @@ ul {
 	margin-right: 13px;
 }
 
-#protect_your_PI {
+#protect_your_IP {
 	font-weight: bold;
 	font-size: 28px;
 	line-height: 34px;
@@ -336,7 +340,7 @@ ul {
 .cta_iphone_img {
 	position: absolute;
 	left: -54%;
-	top: -13%
+	top: -13%;
 }
 
 #footer {
@@ -352,7 +356,7 @@ ul {
 	text-align: center;
 }
 
-#sdfsd {
+#footer_p {
 	padding-top: 1%;
 }
 
