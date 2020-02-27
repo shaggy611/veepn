@@ -77,8 +77,8 @@
 		transform: rotate(90deg);
 	}
 	.make_shadow {
-		/*-webkit-box-shadow: 0 4px 28px rgba(0, 0, 0, 0.18);
-	        box-shadow: 0 4px 28px rgba(0, 0, 0, 0.18);*/
+		-webkit-box-shadow: 0 4px 28px rgba(0, 0, 0, 0.18);
+	        box-shadow: 0 4px 28px rgba(0, 0, 0, 0.18);
 		box-shadow: none;
 		border-radius: 20px;
 	}
@@ -108,19 +108,21 @@
 		margin-bottom: 30px;
 	}
 	.wrapper_for_plus_column {
-	  margin-left: 20%
+	  margin-left: 20%;
 	}
 	
 	#ip_definition {
 		width: 610px;
 		margin-left: auto;
 		margin-right: auto;
+		text-align: justify;
 	}
 	
 	#ip_internet_protocol_text {
 		width: 610px;
 		margin-left: auto;
 		margin-right: auto;
+		text-align: justify;
 	}
 	.what_is_ip_h1_and_revel {
 		width: 610px;
@@ -179,6 +181,9 @@
 	.img_warn_and_text_block {
 		margin-top: 0;
 	}
+	.make_padding_on_tablet {
+		margin-bottom: 45px;
+	}
 	#benefits {
 		width: 610px;
 		margin-left: auto;
@@ -194,6 +199,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+		margin-top: 26px;
 	}
     .hide_this_element_on_small_device {
     display: none;
@@ -202,10 +208,16 @@
     display: inline-block;
 }
     #cta {
-        width: 610px;
+		background-image: url('../img/img-map-small.png');
+		background-repeat: no-repeat;
+		background-position: left;
+		margin-bottom: 36px;
+    }
+	.inner_wrapper_for_cta {
+		width: 610px;
         margin-left: auto;
         margin-right: auto;
-    }
+	}
     .hide_your_ip_button {
 		padding-top: 3px;
         width: 215px;
@@ -240,8 +252,8 @@
     .block_with_tech_ico > span {
         margin-right: 15px;
     }
-    .ios_cta_block_image {
-       content: url(../img/ic-ios-small.png);
+		.ios_cta_block_image {
+        content: url(../img/ic-ios-small.png);
         margin-right: 0;
     }
 
@@ -282,3 +294,412 @@
 
 /*=========================================================================*/
 
+@media (min-width: 375px) and (max-width: 767px) {
+		#isp {
+		display: none;
+	}
+
+		#isp_name {
+		display: none;	
+	}
+		#ip-info {
+		background-image: url('../img/bg_small.png');
+		background-size: cover;
+		background-position: 30% 15       %;
+		padding-bottom: 80px;
+	}
+	.veepn_logo {
+		content: url(../img/logo_small_device.png);
+		margin-bottom: 34px;
+		margin-top: 22px;
+	}
+	.wrapper_for_logo {
+		width: 344px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.more_info_about_ip {
+		height: 327px;
+		background: #FFFFFF;
+		border-radius: 20px 20px 0 0;
+		width: 344.66px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#what_my_ip {
+		text-transform: uppercase;
+		font-size: 20px;
+		line-height: 24px;
+		padding-top: 24px;
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		margin-bottom: 0;
+	}
+	#private_information {
+		font-weight: bold;
+		font-size: 12px;
+        line-height: 15px;
+		margin-top: 3.75px;
+		text-align: center;
+	}
+	#ip_adress {
+		width: 276px;
+		font-weight: bold;
+		font-size: 16px;
+        line-height: 20px;
+		margin-left: 40px;
+		margin-top: 40px;
+		margin-bottom: 10px;
+		text-align: left;
+	}
+	.ip-position_information {
+		font-size: 12px;
+        line-height: 26px;
+		margin-left: 11px;
+		width: 108px;
+		text-align: right;
+		display: inline-block;
+	}
+	.ip-position_information_span {
+		font-size: 12px;
+        line-height: 26px;
+		color: #313131;
+		width: 173px;
+		margin-left: 16px;
+	}
+	.protect_yourself_button {
+		margin-top: 20px;
+		margin-bottom: 60.64px;
+		padding-top: 2px;
+        width: 155px;
+        height: 29.6px;
+        padding-left: 0;
+        padding-right: 0;
+}
+    .protect_yourself_button > a {
+        font-size: 12px;
+        line-height: 15px;
+    }   
+	.triangle_polygon_position {
+		position: absolute;
+		top: 87%;
+		right: 40%;
+		z-index: 1;
+		transform: rotate(90deg);
+		height: 105px; 
+	}
+	.make_shadow {
+		/*-webkit-box-shadow: 0 4px 28px rgba(0, 0, 0, 0.18);
+	        box-shadow: 0 4px 28px rgba(0, 0, 0, 0.18);*/
+		box-shadow: none;
+		border-radius: 20px;
+	}
+	.info-bg {
+		height: 287.84px;
+		background: url('../img/location-indicator.png') no-repeat center, url('../img/map_small_device.png') no-repeat center ;
+		width: 344.66px;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 0 0 20px 20px;
+	}
+	#header_row_ip_info {
+		margin-top: 1.8%;
+		width: 309px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 12px;
+        line-height: 15px;
+}
+	#top-line {
+		height: 32px;
+	}
+	.plus_column_n2 {
+		font-weight: bold;
+		font-size: 16px;
+        line-height: 26px;
+		color: #313131;
+		padding-bottom: 10px;
+		width: 280px;
+		margin-left: auto;
+}
+	.plus_column_inform {
+		margin-bottom: 20px;
+		font-size: 12px;
+        line-height: 20px;
+		width: inherit;
+		padding-left: 0;
+		width: 280px;
+		margin-top: 10px;
+		margin-left: auto;
+	}
+	.width_on_small_device {
+		width: 30px;
+	}
+	.wrapper_for_plus_column {
+	    width: 344.66px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.plus_minus_icos_position {
+		position: absolute;
+		top: 7%;
+		/*left: 6%;*/
+}
+	
+	#ip_definition {
+		width: 344.66px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 14px;
+        line-height: 22px;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	
+	#ip_internet_protocol_text {
+		width: 344.66px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 12px;
+        line-height: 20px;
+	}
+	.what_is_ip_h1_and_revel {
+		width: 340px;
+		margin-left: auto;
+		margin-right: auto;
+        font-size: 20px;
+        line-height: 24px;
+		margin-bottom: 30.29px;
+		margin-top: 60px;
+	}
+	.ip_reveals_column_text {
+		width: 344.66px;
+		padding-right: 20px;
+		margin-top: 25.92px;
+		font-size: 12px;
+        line-height: 20px;
+		margin-bottom: 35.92px;
+	}
+	.ip_reveals_column_h2 {
+		width: 344.66px;
+		padding-right: 20px;
+		font-size: 16px;
+        line-height: 20px;
+		margin-top: 10px;
+		height: auto;
+	}
+	.ip_reveals_column_h3 {
+		width: 344.66px;
+		padding-right: 20px;
+		margin-top: 10px;
+		font-size: 12px;
+        line-height: 23px;
+		height: auto;
+	}
+	.change_width_on_tablet {
+		width: 344.66px;
+		margin: 0;
+	}
+	.width_of_ico_on_mobile {
+		width: 34.82px;
+	}
+	#ip-reveals {
+		width: 344.66px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.ip_reveal_warn_image {
+		content: url(../img/img-warn-phone.png);
+		margin-left: 0;
+		width: auto;
+		margin-bottom: 50.9px;
+		margin-top: 12.5px;
+	}
+	.wrapper_for_ip_reveal_warn_image {
+		text-align: center;
+	}
+	.wrapper_for_what_can_be_done {
+		width: 344.66px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	.what_can_be_done {
+		font-size: 18px;
+        line-height: 24px;
+		width: 344.66px;
+		margin-bottom: 30.5px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.wrapper_for_what_can_be_done > ul {
+		text-align: left;
+	}
+	.img_warn_and_text_block {
+		margin-top: 0;
+	}
+	#benefits {
+		width: 344.66px;
+		margin-left: auto;
+		margin-right: auto;
+        margin-bottom: 95px;
+	}
+	.benefits_block_li {
+		font-size: 14px;
+        line-height: 17px;
+		width: 344.66px;
+		text-align: center
+	}
+	.benefits_last_li_width {
+	    width: 216px;
+		margin-bottom: 35.05px;
+		text-align: left;
+		text-indent: -39px;
+		margin-left: auto;
+    }
+	.what_can_be_done_list_font_style {
+		font-style: normal;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 17px;
+		text-transform: uppercase;
+		text-indent: -33px;
+		padding-left: 34px;
+	}
+	.img_benefits {
+		content: url(../img/img-benefits-phone.png);
+		width: auto;
+		float: none !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+	}
+	#benefits_first_p {
+		margin-top: 30.23px;
+		margin-bottom: 35px;
+		font-size: 12px;
+        line-height: 20px;
+}
+	.benefits_second_p {
+		font-size: 12px;
+        line-height: 20px;
+	}
+    .hide_this_element_on_small_device {
+    display: none;
+    }
+    .hide_this_element_on_big_device {
+        display: inline-block;
+}
+    #cta {
+		background-image: url('../img/img-map-small.png');
+		background-repeat: no-repeat;
+		background-position: center 80%;
+        height: 570.55px;
+		margin-bottom: 0;
+    }
+	.inner_wrapper_for_cta {
+		width: 344.66px;
+        margin-left: auto;
+        margin-right: auto;
+	}
+    .hide_your_ip_button {
+		width: 155px;
+        height: 29.56px;
+		padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 26px;
+    }
+    .hide_your_ip_button > a {
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .cta_iphone_img {
+        position: absolute;
+	    left: 22%;
+	    top: 63%;
+        content: url(../img/phone_small.png);
+    }
+    #protect_your_IP {
+		padding-left: 30px;
+		padding-right: 30px;
+        font-size: 20px;
+        line-height: 24px; 
+        margin-top: 35px;
+		margin-bottom: 25.84px;
+    }
+    .block_with_tech_ico {
+        font-size: 12px;
+        line-height: 15px;
+		margin-bottom: 25px;
+}
+    .block_with_tech_ico > img {
+        margin-right: 10px;
+        margin-left: 2px;
+    }
+    .block_with_tech_ico > span {
+        margin-right: 15px;
+    }
+    #break_row_on_mobile {
+		display: block;
+		margin-bottom: 4px;
+	}
+	.ios_cta_block_image {
+        content: url(../img/ic-ios-small.png);
+        margin-right: 0;
+		width: 17px;
+    }
+
+    .win_cta_block_image {
+        content: url(../img/ic-win-small.png);
+        width: 14px;
+    }
+
+    .apple_cta_block_image {
+        content: url(../img/ic-apple-small.png);
+		width: 14px;
+    }
+
+    .linux_cta_block_image {
+        content: url(../img/ic-linux-small.png);
+		width: 14px;
+    }
+
+    .router_cta_block_image {
+        content: url(../img/ic-router-small.png);
+		width: 19px;
+    }
+
+    .apple-tv_cta_block_image {
+        content: url(../img/ic-apple-tv-small.png);
+		width: 30px;
+    }
+
+    .chrome_cta_block_image {
+        content: url(../img/ic-chrome-small.png);
+		width: 14px;
+    }
+
+    .firefox_cta_block_image {
+        content: url(../img/ic-firefox-small.png);
+		width: 14px;
+    }
+
+    .opera_cta_block_image {
+        content: url(../img/ic-opera-small.png);
+		width: 14px;
+    }
+	#footer_p {
+		margin: 0;
+	}
+	#footer {
+        height: auto; 
+		font-size: 11px;
+        line-height: 42px;
+}
+	.what_is_ip_h1_and_revel_mobile_cancel_margin {
+		margin-top: 0;
+	}
+}
