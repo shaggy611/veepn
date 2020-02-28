@@ -1,6 +1,38 @@
 /*Media queries for tablets================================================*/
+@media (min-width: 992px) and (max-width: 1219px){
+		.triangle_polygon_position {
+		position: absolute;
+		top: 87%;
+		right: 45% !important;
+	}
+	.wrapper_for_plus_column {
+	  	margin-left: 30% !important;
+	}
+}
 
-@media (min-width: 768px) and (max-width: 1290px) {
+@media (min-width: 1220px) and (max-width: 1290px) {
+		.more_info_about_ip {
+		width: 605px;
+		margin-left: auto;
+	}
+	.info-bg {
+		width: 605px;
+		margin-right: auto;
+	}
+	#header_row_ip_info {
+		width: 1210px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+		.wrapper_for_logo {
+		width: 1210px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1220px) {
 	#ip-info {
 		background-size: cover;
 		background-position: top;
@@ -78,12 +110,15 @@
 		top: 87%;
 		right: 44%;
 		z-index: 1;
-		transform: rotate(90deg);
+		-webkit-transform: rotate(90deg);
+		    -ms-transform: rotate(90deg);
+		        transform: rotate(90deg);
 	}
 	.make_shadow {
 		-webkit-box-shadow: 0 4px 28px rgba(0, 0, 0, 0.18);
 	        box-shadow: 0 4px 28px rgba(0, 0, 0, 0.18);
-		box-shadow: none;
+		-webkit-box-shadow: none;
+		        box-shadow: none;
 		border-radius: 20px;
 	}
 	.info-bg {
@@ -311,6 +346,9 @@
 		background-size: 100% 100%;
 		padding-bottom: 80px;
 	}
+	#unprotecter {
+		font-size: 12px;
+	}
 	.veepn_logo {
 		content: url(../img/logo_small_device.png);
 		margin-bottom: 34px;
@@ -392,13 +430,16 @@
 		top: 87%;
 		right: 40%;
 		z-index: 1;
-		transform: rotate(90deg);
+		-webkit-transform: rotate(90deg);
+		    -ms-transform: rotate(90deg);
+		        transform: rotate(90deg);
 		height: 105px; 
 	}
 	.make_shadow {
 		/*-webkit-box-shadow: 0 4px 28px rgba(0, 0, 0, 0.18);
 	        box-shadow: 0 4px 28px rgba(0, 0, 0, 0.18);*/
-		box-shadow: none;
+		-webkit-box-shadow: none;
+		        box-shadow: none;
 		border-radius: 20px;
 	}
 	.info-bg {
@@ -722,4 +763,3 @@
     background-size: 100% 30%;
     }
 }
-
