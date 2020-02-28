@@ -53,6 +53,14 @@ body {
     text-align: center;
 }
 
+#ic_warn_private_information {
+    content: url(../img/ic-warning.png);
+    
+    transform: translate(-35%, 25%);
+    -webkit-transform: translate(-35%, 25%);
+    -ms-transform: translate(-35%, 25%);
+}
+
 .info-bg {
     height: 569px;
     background:  url('../img/location-indicator.png') no-repeat center, url('../img/map.png') no-repeat;
@@ -368,19 +376,27 @@ ul {
 }
 
 #isp_name {
-	font-weight: bold;
+	font-weight: 500;
 }
 
 #ip {
-	font-weight: bold;
+	font-weight: 500;
 }
 
+#isp {
+    font-weight: 300;
+}
 #isp:before {
 	content: '・';
+    font-weight: 400;
 }
 
+#status {
+    font-weight: 300;
+}
 #status:before {
 	content: '・';
+    font-weight: 400;
 }
 
 #header_row_ip_info {
@@ -398,4 +414,29 @@ a {
 a:hover {
 	text-decoration: none; 
 	color: #FFFFFF;
+}
+.blue_under_line_what_is_ip {
+    background: url(../img/underline-desktop.png) no-repeat bottom;
+    background-size: 100% 35%;
+    padding-right: 5px;
+}
+
+.blue_under_line_ip_reveals {
+    background-image: url(../img/underline-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 35%;
+    padding-right: 3px;
+}
+
+.blue_under_line_benefits {
+    background-image: url(../img/underline-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 35%;
+    padding-left: 5px;
+}
+
+.your_ip {
+    font-weight: 300;
 }

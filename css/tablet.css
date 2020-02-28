@@ -4,7 +4,7 @@
 	#ip-info {
 		background-size: cover;
 		background-position: top;
-		padding-bottom: 130px;
+		padding-bottom: 109px;
 }
 	.wrapper_for_logo {
 		width: 610px;
@@ -34,6 +34,10 @@
 		margin-top: 9px;
 		text-align: center;
 	}
+    
+    #ic_warn_private_information {
+        content: url(../img/ic-warning-tab.png);
+}
 	#ip_adress {
 		width: 465px;
 		font-weight: bold;
@@ -131,7 +135,7 @@
         font-size: 26px;
 		line-height: 32px;
 		margin-bottom: 46px;
-        margin-top: 125px;
+        margin-top: 16px;
 	}
 	.ip_reveals_column_text {
 		width: 190px;
@@ -304,8 +308,7 @@
 	}
 		#ip-info {
 		background-image: url('../img/bg_small.png');
-		background-size: cover;
-		background-position: 30% 15       %;
+		background-size: 100% 100%;
 		padding-bottom: 80px;
 	}
 	.veepn_logo {
@@ -342,6 +345,10 @@
 		margin-top: 3.75px;
 		text-align: center;
 	}
+    
+    #ic_warn_private_information {
+        content: url(../img/ic-warning-mobile.png);
+}
 	#ip_adress {
 		width: 276px;
 		font-weight: bold;
@@ -698,8 +705,21 @@
         height: auto; 
 		font-size: 11px;
         line-height: 42px;
-}
+    }
 	.what_is_ip_h1_and_revel_mobile_cancel_margin {
 		margin-top: 0;
 	}
+    
+    .blue_under_line_what_is_ip {
+    background-size: 100% 30%;
+    }
+
+    .blue_under_line_ip_reveals {
+    background-size: 100% 30%;
+    }
+
+    .blue_under_line_benefits {
+    background-size: 100% 30%;
+    }
 }
+
